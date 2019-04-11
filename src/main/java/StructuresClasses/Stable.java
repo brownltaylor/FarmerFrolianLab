@@ -8,7 +8,4 @@ public class Stable {
 
     ArrayList<Horse> stable;
 
-    public
-
-
 }
