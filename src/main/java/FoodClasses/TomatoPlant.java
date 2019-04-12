@@ -4,11 +4,11 @@ import AbstractClass.Crop;
 
 public class TomatoPlant extends Crop {
 
-    public String yield(TomatoPlant tomatoPlant {
+    public String yield(TomatoPlant tomatoPlant) {
         tomatoPlant.setHasBeenHarvested(true);
         Tomato tomato = new Tomato();
-        int x = tomato.getCounter() + 1;
-        tomato.setCounter(x);
+        tomato.addCounter();
+        int x =tomato.getCounter();
         return "You harvested a corn! and now have : " + x + "Corn!";
     }
 

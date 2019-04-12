@@ -4,13 +4,13 @@ import AbstractClass.Crop;
 import Interfaces.Edible;
 
 public class CornEars extends CornStalk implements Edible {
-    private int counter;
+    public static int cornCounter;
 
     public int getCounter() {
-        return counter;
+        return cornCounter;
     }
-
-    public void setCounter(int counter) {
-        this.counter = counter;
+    public void addCounter(){
+        cornCounter = cornCounter + 1;
     }
+}
 }

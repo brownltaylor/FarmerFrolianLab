@@ -16,10 +16,10 @@ public class CornStalk extends Crop {
 
 
     public String yield(CornStalk cornStalk) {
-        cornStalk.setHasBeenHarvested(true);
-        CornEars corn1 = new CornEars();
-        int x = corn1.getCounter() + 1;
-        corn1.setCounter(x);
+        tomatoPlant.setHasBeenHarvested(true);
+        CornEars cornEars = new CornEars();
+        cornEars.addCounter();
+        int x =tomato.getCounter();
         return "You harvested a corn! and now have : " + x + "Corn!";
     }
 }

@@ -3,13 +3,12 @@ package FoodClasses;
 import Interfaces.Edible;
 
 public class Tomato extends TomatoPlant implements Edible {
-    private int counter;
+    public static int tomatoCounter;
 
     public int getCounter() {
-        return counter;
+        return tomatoCounter;
     }
-
-    public void setCounter(int counter) {
-        this.counter = counter;
+    public void addCounter(){
+        tomatoCounter = tomatoCounter + 1;
     }
 }
