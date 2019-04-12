@@ -1,13 +1,14 @@
 package AbstractClass;
 
+
 public abstract class Crop {
 
     private boolean hasBeenHarvested;
 
-    public abstract void plant(Crop crop);
+    public abstract void plant();
 
-    public abstract void setHasBeenHarvested(boolean harvest);
+    public void setHasBeenHarvested(boolean boo){
+        hasBeenHarvested = boo;
+        }
+    }
 
-
-
-}

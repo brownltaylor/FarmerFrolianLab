@@ -2,6 +2,6 @@ package StructuresClasses;
 
 public class Farm {
 
-    private int numOfStables =
+    private int numOfStables;
 
 }
