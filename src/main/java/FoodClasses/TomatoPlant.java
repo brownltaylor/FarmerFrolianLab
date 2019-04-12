@@ -9,7 +9,7 @@ public class TomatoPlant extends Crop {
         Tomato tomato = new Tomato();
         tomato.addCounter();
         int x =tomato.getCounter();
-        return "You harvested a corn! and now have : " + x + "Corn!";
+        return "You harvested a corn! and now have : " + x + "Tomato!";
     }
 
     public void plant() {

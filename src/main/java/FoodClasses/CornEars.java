@@ -13,4 +13,3 @@ public class CornEars extends CornStalk implements Edible {
         cornCounter = cornCounter + 1;
     }
 }
-}
