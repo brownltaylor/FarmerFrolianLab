@@ -9,5 +9,8 @@
         <module name="FarmerFrolianLab" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="FarmerFrolianLab" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>
